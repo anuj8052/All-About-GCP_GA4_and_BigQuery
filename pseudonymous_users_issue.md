@@ -1,5 +1,8 @@
 **ok, but now my event_intraday table is not in my bigquery dataset and a new pseudonymous_users_20250216 table is there so how to get back my event_intraday table***
 
+***Please Refer this article also***
+- https://www.optimizesmart.com/pseudonymous_users_-users_-data-tables-in-bigquery-for-ga4-google-analytics-4/
+
 
 It appears that your `event_intraday_*` table has been replaced by a `pseudonymous_users_*` table in your BigQuery dataset. This change is likely due to the activation of the **User Data Export** feature in your GA4 property, which exports user-level data to BigQuery. The `pseudonymous_users_*` table contains data for users who are not identified by a user ID, while the `users_*` table contains data for users identified by a user ID. citeturn0search0
 
